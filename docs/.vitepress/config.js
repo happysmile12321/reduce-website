@@ -3,7 +3,7 @@ export default {
   titleTemplate: ':title - reduce',
   description: 'A software for help people learning',
   lang: 'en-US',
-  base: '/',
+  base: '/reduce-website/',
   lastUpdated: true,
   markdown: {
     theme: 'material-palenight',
