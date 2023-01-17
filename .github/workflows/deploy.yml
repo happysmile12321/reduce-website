@@ -24,7 +24,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: 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
           publish_dir: public
           # cname: example.com # if wanna deploy to custom domain
 
