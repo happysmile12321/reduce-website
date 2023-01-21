@@ -1,4 +1,4 @@
-// node_modules/.pnpm/mermaid@9.3.0/node_modules/mermaid/dist/mermaid.esm.mjs
+// node_modules/mermaid/dist/mermaid.esm.mjs
 var __defProp = Object.defineProperty;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField = (obj, key, value) => {

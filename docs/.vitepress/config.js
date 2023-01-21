@@ -18,7 +18,7 @@ export default withMermaid(
       lastUpdatedText: 'Update Date',
       i18nRouting: true,
       nav: [
-        { text: 'Guide', link: '/guide' },
+        { text: 'Guide', link: '/guide/why_i_develop_this' },
         {
           text: 'Download',
           items: [
