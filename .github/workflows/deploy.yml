@@ -15,7 +15,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: yarn install
+          cache: yarn
+      - run: yarn install --frozen-lockfile
 
       - name: Build
         run: yarn docs:build
@@ -23,7 +24,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: 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
-          publish_dir: public
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
           # cname: example.com # if wanna deploy to custom domain
-
