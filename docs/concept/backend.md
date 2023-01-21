@@ -1,5 +1,6 @@
 The structure like this:
 
+
 ```rs
 struct Item{
   id: i128,
