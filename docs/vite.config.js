@@ -7,4 +7,5 @@ export default defineConfig({
         "mermaid": "mermaid/dist/mermaid.esm.mjs",
     },
   },
+  base: '/reduce-website/'
 });
